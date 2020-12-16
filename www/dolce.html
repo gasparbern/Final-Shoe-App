@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-image: url('img/gradient.jpg');
+  background-size: 1400px 650px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 100%;
+  left: 0;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content .header {
+  background: red;
+  padding: 16px;
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  background-color: #ccc;
+  height: 250px;
+}
+
+.column a {
+  float: none;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.column a:hover {
+  background-color: #ddd;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.header {
+    position: relative;
+    background-color: white;
+    text-align: center fixed;
+    padding: 10px;
+    background-repeat: no-repeat;
+    
+}
+.asd{
+  height: 50%;
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+ <center>
+
+
+<div class="navbar">
+  <a href="index.html">Home</a>
+    <div class="dropdown">
+    <button class="dropbtn">MENU 
+      <i class="fa fa-caret-down"></i>
+    </button>
+  
+
+
+    <div class="dropdown-content">
+      <div class="header">
+        <h2>SHOWCASE</h2>
+      </div>   
+      <div class="row">
+        <div class="column">
+          <h3>MENS</h3>
+          <a href="nike.html">NIKE</a>
+          <a href="#">ADIDAS</a>
+        </div>
+        <div class="column">
+          <h3>WOMENS</h3>
+          <a href="birkenstock.html">BIRKENSTOCK</a>
+          <a href="#">DOLCE VITA</a>
+        </div>
+        <div class="column">
+          <h3>SHOW CARE</h3>
+          <a href="accessories.html">SHOE ACCESSORIES & CARE PRODUCTS</a>
+        </div>
+      </div>
+    </div>
+  </div> 
+</div>
+
+
+<style>
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 50;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-size: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.header {
+  overflow: hidden;
+  background-color: green;
+  padding: 20px 10px;
+}
+
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 9px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 10px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color: red;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+
+}
+</style>
+
+
+
+<br>
+<center>
+<h1>DOLCE VITA</h1>
+<div class="clearfix"></div>
+
+<div style="padding:20px;">
+
+  <p style="font-size: 18px"> Founded in Manhattan's Lower East Side in 2001, Dolce Vita is the vision of shoemakers Nick Lucio and Van Lamprou. They set out to provide the cool, confident women they admired with the shoes they deserved. </p>
+
+</div>
+<h1>Different DOLCE VITA Shoes</h1>
+<div class="responsive">
+  <div class="gallery">
+    <i>CORMAC SNAKE</i>
+      <img src="img\dolce-cormacsnake.png" width="600" height="400">
+    </a>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <i>EIFFE HEEL</i>
+      <img src="img\dolce-effieheel.jpg" alt="Nike Air Jordan 2019" width="600" height="400">
+    </a>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <i>ENYO MULE</i>
+      <img src="img\dolce-enyomule.jpg  " alt="Nike Air Jordan 2019" width="600" height="400">
+    </a>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <i>HAZEL</i>
+      <img src="img\dolce-hazel.jpg" alt="Nike Air Jordan 2019" width="600" height="400">
+    </a>
+  </div>
+</div>
+<BR>
+<BR>
+<BR>
+<div class="responsive">
+  <div class="gallery">
+    <i>JALI HEEL</i>
+      <img src="img\dolce-jaliheel.jpg" alt="Nike Air Jordan 2019" width="600" height="400">
+    </a>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <i>LAIN SANDALS</i>
+      <img src="img\dolce-lainsandals.jpg" alt="Nike Air Jordan 2019" width="600" height="400">
+    </a>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <i>MESHAKA</i>
+      <img src="img\dolce-meshaka.webp" alt="Nike Air Jordan 2019" width="600" height="400">
+    </a>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <i>MULE</i>
+      <img src="img\dolce-mule.jpg" alt="Nike Air Jordan 2019" width="600" height="400">
+    </a>
+  </div>
+</div>
+
+<br>
+<br>
+<br>
+
+<div class="responsive">
+  <div class="gallery">
+    <i>NWT HEEL</i>
+      <img src="img\dolce-nwtheel.jpg" alt="Nike Air Jordan 2019" width="600" height="400">
+    </a>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <i>SHELAH</i>
+      <img src="img\dolce-shelah.jpg" alt="Nike Air Jordan 2019" width="600" height="400">
+    </a>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <i>ZAYLA WOODEN</i>
+      <img src="img\dolce-zaylawooden.jpg" alt="Nike Air Jordan 2019" width="600" height="400">
+    </a>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <i>SUEDE ANKLE</i>
+      <img src="img\dolce-suedeankle.jpg" alt="Nike Air Jordan 2019" width="600" height="400">
+    </a>
+  </div>
+</div>
+
+</div>
+
+</body>
+</html>
